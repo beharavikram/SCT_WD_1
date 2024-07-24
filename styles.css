@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e13939;
+    color: #07daff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #1a191b;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+#navbar a:hover {
+    background-color: #f2813a;
+}
+
+main {
+    padding-top: 70px; /* Adjust according to your header height */
+    height: 2000px; /* Example height for scroll effect */
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h1, section h2 {
+    margin-bottom: 20px;
+}
